@@ -71,6 +71,7 @@ public class ROT13Test {
         System.out.println(Q2);
         System.out.println(A2);
         // Then
+        System.out.println("bleh:  " + actual2);
         assertTrue(actual2.equals(A2));
     }
     @Test
